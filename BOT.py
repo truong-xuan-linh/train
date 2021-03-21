@@ -14,5 +14,7 @@ for i in range(1, n):
     if l[i] > maxx:
         maxx = l[i]
         q = i +1
-
+if p > q:
+    p = q
 print(maxx,p,q)
+# sua lai roi nha
